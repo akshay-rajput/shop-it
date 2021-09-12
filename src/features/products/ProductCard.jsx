@@ -16,9 +16,9 @@ export default function ProductCard({product}) {
         dispatch(addToCart(updatedItem));
     }
 
-    function saveProduct(){
-        console.log("save..")
-    }
+    // function saveProduct(){
+    //     console.log("save..")
+    // }
 
     function checkExistanceInArray(array, id){
         // returns true or false
@@ -47,7 +47,7 @@ export default function ProductCard({product}) {
                     </button>
                 }
                 
-                <button onClick={saveProduct} className="p2 rounded">Save</button>
+                {/* <button onClick={saveProduct} className="p2 rounded">Save</button> */}
             </div>
         </div>
     )
