@@ -1,0 +1,10 @@
+
+.logo{
+  font-size: 1.5rem;
+}
+a{
+  color: orange;
+}
+a:hover{
+  color: rgb(226, 176, 133);
+}
